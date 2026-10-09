@@ -4,15 +4,15 @@
 <meta name="apple-mobile-web-app-title" content="Cook-Out">
 <title>Cook-Out Tracker</title>
 <style>
-:root{--br:#836538;--bk:#1a1a1a;--ok:#2f8f4e;--warn:#d98e04;--bad:#c62828}
+:root{--br:#836538;--bk:#000000;--ok:#2f8f4e;--warn:#d98e04;--bad:#c62828}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Helvetica,Arial,sans-serif;background:#f4f1ec;color:var(--bk);padding-bottom:env(safe-area-inset-bottom)}
+body{margin:0;font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;background:#f4f1ec;color:var(--bk);padding-bottom:env(safe-area-inset-bottom)}
 header{position:sticky;top:0;z-index:5;background:var(--bk);color:#fff;padding:calc(env(safe-area-inset-top) + 8px) 14px 10px;border-bottom:4px solid var(--br)}
 .top{display:flex;justify-content:space-between;align-items:center}
 .top img{height:26px}
 .clock{font-size:32px;white-space:nowrap;font-weight:700;letter-spacing:-1px;font-variant-numeric:tabular-nums}
-.sub{font-size:12px;color:#c9a96a}
-.cd{font-size:15px;font-weight:700;color:#c9a96a;font-variant-numeric:tabular-nums;margin-top:2px;white-space:nowrap}.cd b{color:#fff;font-size:20px}
+.sub{font-size:12px;color:#836538}
+.cd{font-size:15px;font-weight:700;color:#836538;font-variant-numeric:tabular-nums;margin-top:2px;white-space:nowrap}.cd b{color:#fff;font-size:20px}
 .timechk{font-size:11.5px;color:#bbb;margin-top:2px}
 #status{margin:10px 12px;border-radius:14px;padding:14px;color:#fff;font-weight:700}
 #status .big{font-size:22px}#status .small{font-weight:500;font-size:14px;margin-top:4px;opacity:.95}
@@ -26,7 +26,7 @@ h2{font-size:13px;text-transform:uppercase;letter-spacing:.6px;color:var(--br);m
 .task.late{border-left-color:var(--bad);background:#fdecea}
 .task.done{opacity:.45;border-left-color:var(--ok)}
 .task.done .txt{text-decoration:line-through}
-.task.serve{background:var(--bk);color:#fff}.task.serve .tm{color:#c9a96a}
+.task.serve{background:var(--bk);color:#fff}.task.serve .tm{color:#836538}
 .cb{flex:0 0 30px;height:30px;border-radius:8px;border:2px solid var(--bk);background:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;color:#fff}
 .task.done .cb{background:var(--ok);border-color:var(--ok)}
 .task.serve .cb{border-color:#fff;background:transparent}
